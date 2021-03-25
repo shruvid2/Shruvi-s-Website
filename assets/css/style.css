@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+.inner{
+    padding-top: 100px;
+    margin-left:100px;
+
+}
+
+.fonttext{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+.header{
+    text-align:centre;
+    color:rgb(19, 17, 17);
+    padding: 1rem;
+    position:relative;
+}
+.move{
+    margin-left:100px;
+}
+
+.move6{
+    margin-left:150px;
+}
+
+.move3{
+    margin-left:300px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.25px;
+
+}
+
+.move4{
+    margin-left:370px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.25px;
+
+}
+.move1{
+    margin-left:130px;
+}
+.mov{
+    color: #fff;
+}
+
+.header:after{
+       content: '';
+       position: absolute;
+       bottom:0;
+       Left: 50%;
+       transform:translateX(-50%);
+       height: 4px;
+       width: 100px;
+       background-color:#2ecc71;
+
+}
+
+.container1{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content:centre;
+    align-items:centre;
+    text-align: centre;
+    grid-gap:1rem;
+    padding:1rem 80px;
+    font-size:1.2rem;
+    margin: 0 auto;
+    width: 94%;
+    right: 3%;
+    left: 3%;
+}
+
+.skill-box{
+   padding:1rem;
+   color:#ddd;
+   cursor:pointer; 
+   /*display:flex;
+    flex-direction:row;*/
+    display:inline-block;
+
+
+}
+.img{
+    width:90px;
+    height:90px;
+    position:relative;
+  
+    align-items:centre;
+}
+
+.img1{
+    width:200px;
+    height:200px;
+    position:relative;
+  
+    align-items:centre;
+}
+
+
+.skill-title h3{
+    color:#fff;
+    margin:0.5rem;
+}
+
+.img:after{
+   
+    position:absolute;
+    top:0;
+    left: 0;
+    width:50%;
+    height:90px;
+    background:rgba(100,100,100,0.5);
+
+}
+
+.skill-title{
+    display:flex;
+    flex-direction:column;
+     align-items:centre;
+     padding:0.5rem;
+     margin-bottom:0.5rem; 
+}
+
+
+
+.skill-icon{
+    width:50px;
+}
+
+.color{
+    color:#fff;
+}
+
+.img1{
+    width: 7%;
+    height: 7%;
+}
+
+
+
+
